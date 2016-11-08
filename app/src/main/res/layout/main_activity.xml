@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="myapps.mobile.times_now.MainActivity">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:id="@+id/search_view"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:hint="@string/enter_search_term"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/search_view_button"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:text="@string/search"
+            android:gravity="center"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/article_container"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </FrameLayout>
+</LinearLayout>

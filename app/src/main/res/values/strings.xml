@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Times_now</string>
+    <string name="search">Search</string>
+    <string name="enter_search_term">What are you looking for?</string>
+</resources>
